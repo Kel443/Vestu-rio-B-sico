@@ -1,0 +1,137 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face{
+  font-family: JosefinSans;
+  src: url(../Font/JosefinSans-VariableFont_wght.ttf) format('opentype');
+}
+@font-face{
+  font-family: JosefinSans-Italic;
+  src: url(../Font/JosefinSans-Italic-VariableFont_wght.ttf) format('opentype');
+}
+:root{
+--font-JosefinSans:'JosefinSans';
+--font-JosefinSans-Italic:'JosefinSans-Italic'
+}
+html,body{
+  background-color: hsl(0, 0%, 100%);
+  height: 100vh;
+}
+main{
+  width: 100%;
+  height: 100%;
+  
+  
+}
+.bolinha{
+  margin-left: 10vw;
+  margin-top: 5vh;
+}
+.base{
+  margin-top: -10px;
+  margin-left: 25px;
+}
+.img{
+  width: 100%;
+  height: 60%;
+  margin-top: 5vh;
+}
+.section{
+  text-align: center;
+  margin-top: 10vh;
+}
+.h21{
+  color: hsl(0, 36%, 70%);
+  font-family: var(--font-JosefinSans);
+  font-size: 3em;
+  font-weight: 300;
+  letter-spacing: 10px;
+  margin-left: 3vw;
+}
+.h22{
+  font-family: var(--font-JosefinSans);
+  font-weight: 400;
+  font-size: 3.4em;
+  letter-spacing: 5px;
+}
+.h23{
+  font-family: var(--font-JosefinSans);
+  font-weight: 400;
+  font-size: 3.4em;
+  letter-spacing: 5px;
+  margin-top: -13%;
+}
+.text{
+  width: 95vw;
+  margin: auto;
+  color: hsl(0, 36%, 70%);
+  font-family: var(--font-JosefinSans);
+  font-size: 1.1em;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  line-height: 4vh;
+  /*border: 1px solid black;*/
+}
+.text2{
+  display: none;
+}
+.p2{
+  margin-top: 20px;
+}
+#email{
+  width: 75vw;
+  padding: 3vh;
+  border-radius: 7vh;
+  border:1px solid hsl(0, 80%, 86%);
+  font-size: 1em;
+}
+::-webkit-input-placeholder{
+  color: hsl(0, 80%, 86%);
+  font-size: 1em;
+}
+
+.svg-button{
+  color: white;
+  background-image: url(../imagem/icon-arrow.svg);
+  background-repeat: no-repeat;
+  background-size: 1em;
+  background-position: center;
+  background-color: hsl(0, 80%, 86%);
+  width:13vh;
+  margin-left: -8vh;
+  margin-bottom: 10vh;
+  padding: 3.7vh;
+  border-radius: 10vh;
+  border: 0px;
+  font-weight: 700;
+}
+.svg-button:hover{
+  box-shadow: 0px 15px 15px hsl(0, 43%, 80%);
+  cursor:pointer;
+}
+.erro{
+  display: none;
+  width: 6vw;
+  height: 3vh; 
+  z-index: 0;
+  position: relative;
+  left: 58vw;
+  top: 6vh;
+}
+.certo{
+  display: none;
+  width: 6vw;
+  height: 3vh; 
+  z-index: 0;
+  position: relative;
+  left: 61vw;
+  top: 6vh;
+}
+.plaise{
+  margin-top: -17%;
+  margin-left: -50%;
+  font-weight: 500;
+  font-size: 1em;
+}

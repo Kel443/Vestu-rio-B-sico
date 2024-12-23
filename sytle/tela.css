@@ -1,0 +1,137 @@
+@media (min-width:520px) and (max-width:1440px){
+  main{
+    width: 90%;
+    height: 85%;
+    margin: auto;
+    margin-top: 5%;
+    box-shadow:3px 23px 65px -21px black;
+  }
+  .bolinha{
+    margin-left: 11vw;
+    margin-top: 5vh;
+    
+  }
+  .base{
+    margin-top: -10px;
+    margin-left: 25px;
+    
+  }
+  .img{
+    display: none;
+  }
+  .fig{
+    background-image: url(../imagem/hero-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: 25.7em;
+    background-position: right;
+    width: 80.1%;
+    height: 100.5%;
+    margin-top: -11.2vh;
+    margin-left: 20%;
+   
+  }
+  .section{
+    width: 65%;
+    text-align: center;
+    margin-top: -40%;
+  }
+  .h21{
+    color: hsl(0, 36%, 70%);
+    font-family: var(--font-JosefinSans);
+    font-size: 3em;
+    font-weight: 300;
+    letter-spacing: 10px;
+    margin-left: -20vw;
+    margin-top: 12vh;
+  }
+  .h22{
+    font-family: var(--font-JosefinSans);
+    font-weight: 400;
+    font-size: 3.4em;
+    letter-spacing: 9px;
+    margin-left: -13vw;
+    margin-top: -1vh;
+  }
+  .h23{
+    font-family: var(--font-JosefinSans);
+    font-weight: 400;
+    font-size: 3.4em;
+    letter-spacing: 5px;
+    margin-top: -10%;
+    margin-left: -35%;
+    margin-top: -9vh;
+  }
+  .text{
+    display: none;
+  }
+  .text2{
+    display: block;
+    width: 35vw;
+    color: hsl(0, 36%, 70%);
+    font-family: var(--font-JosefinSans);
+    font-size: 1.1em;
+    line-height: 4vh;
+    text-align: left;
+    margin-left: 20%;
+    margin-top: 5vh;
+  }
+  .p2{
+    margin-top: 20px;
+  }
+  #email{
+    width: 32vw;
+    padding: 3vh;
+    border-radius: 7vh;
+    border:1px solid hsl(0, 80%, 86%);
+    font-size: 1em;
+    margin-left: -3%;
+  }
+  ::-webkit-input-placeholder{
+    color: hsl(0, 80%, 86%);
+    font-size: 1em;
+  }
+  
+  .svg-button{
+    color: white;
+    background-image: url(../imagem/icon-arrow.svg);
+    background-repeat: no-repeat;
+    background-size: 1em;
+    background-position: center;
+    background-color: hsl(0, 80%, 86%);
+    width:8vw;
+    padding: 3.7vh;
+    border-radius: 10vh;
+    border: 0px;
+    font-weight: 700;
+    margin-top: 1%;
+    margin-left: -12%;
+  }
+  .svg-button:hover{
+    box-shadow: 0px 15px 15px hsl(0, 43%, 80%);
+    cursor:pointer;
+  }
+  .erro{
+    display: none;
+    width: 3vw;
+    height: 5vh; 
+    z-index: 0;
+    position: relative;
+    left: 35vw;
+    top: 8vh;
+  }
+  .certo{
+    display: none;
+    width: 3vw;
+    height: 5vh; 
+    z-index: 0;
+    position: relative;
+    left: 35vw;
+    top: 8vh;
+  }
+  .plaise{
+    margin-top: -7.5%;
+    margin-left: -50%;
+    font-weight: 500;
+    font-size: 1.2em;
+  }
+}

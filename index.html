@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="imagem/favicon-32x32.png" type="image/x-icon">
+  <link rel="stylesheet" href="sytle/style.css">
+  <link rel="stylesheet" href="sytle/tela.css">
+  <title>Vistuario</title>
+</head>
+<body>
+  <main>
+    <img class="bolinha" src="imagem/logo.svg" alt="">
+    <figure class="fig">
+          <img  class="img" src="imagem/hero-mobile.jpg" alt="Hero">
+    </figure>
+    <section class="section">
+      <h2 class="h21">WE'RE</h2>
+      <h2 class="h22">COMING</h2> 
+      <h2 class="h23"><br>SOON</h2>
+
+      <p class="text">Hello fellow shoppers! We're currently building <br>our new fashion store. Add your email below to stay up-to-date with announcements and our <br>launch deals. </p>
+      <!--O texto a baixo é da tela 1445px-->
+      <p class="text2">Hello fellow shoppers! We're currently building our new fashion store. Add your email below to stay up-to-date with announcements and our launch deals. </p>
+      <div class="p2">
+        <img class="erro" id="img" src="imagem/icon-error.svg" alt="erro">
+        <img class="certo" id="img2" src="imagem/certo.jpg" alt="certo">
+        <input type="email" name="E-mail" id="email" placeholder="Email Address" >
+        
+        <input  class="svg-button" type="button" onclick="enter()" onblur="validarEmail()">
+      </div>
+      <p class="plaise" id="error"></p>
+    </section>
+    
+  </main>
+</body>
+<script src="script/script.js"></script>
+</html>
